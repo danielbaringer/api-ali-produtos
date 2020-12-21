@@ -28,6 +28,10 @@ app.get("/", async (req, res) => {
   res.json({});
 });
 
+app.get("/teste", async (req, res) => {  
+  res.json({});
+});
+
 app.get("/random", async (req, res) => {  
   min = Math.ceil(1);
   max = Math.floor(5);
